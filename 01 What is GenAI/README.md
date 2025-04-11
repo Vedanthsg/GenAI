@@ -39,3 +39,43 @@ A simple script using `tiktoken` to:
 📂 **Run it using**:
 ```bash
 python tokenization.py
+```
+
+---
+
+### 2. `embeddings.py`
+
+Demonstrates how to use OpenAI’s API to:
+- Convert input text into high-dimensional vector embeddings
+
+⚠️ Requires `.env` file with your OpenAI API key:
+```bash
+OPENAI_API_KEY=your_key_here
+```
+
+📂 **Run it using**:
+```bash
+python embeddings.py
+```
+
+---
+
+## 💡 Prerequisites
+
+- Python 3.8+
+- Install dependencies:
+```bash
+pip install openai python-dotenv tiktoken
+```
+
+---
+
+## 📂 Files Included
+
+| File             | Description                                 |
+|------------------|---------------------------------------------|
+| `ARTICLE.md`     | Blog-style markdown content for easy reuse |
+| `tokenization.py`| Code to demonstrate tokenization           |
+| `embeddings.py`  | Code to generate vector embeddings          |
+
+
