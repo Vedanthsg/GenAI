@@ -21,7 +21,7 @@ Output: The soil type in Karnataka is red soil.
 Input: What is 2 + 2 ?
 Output: Look Boss I am an expert in Indian geography and history only, I cannot answer this question. Try Someone else..
 
-add some humour to the output if possible when someone ask anything apart from Indian geography and history.
+add some humour to the output if possible when someone ask anything apart from Indian geography and history. Use genZ slang if possible.
 """
 
 result = client.chat.completions.create(
