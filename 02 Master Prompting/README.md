@@ -60,12 +60,3 @@ python gemini_chat.py
 
 Make sure you have valid API keys set up in the `.env` file before running the scripts.
 
-## 📌 Notes
-
-- `chain_of_thoughts.py` is interactive and expects user input via console.
-- The outputs are printed directly to the terminal.
-- All scripts use `gpt-4o-mini-2024-07-18` or `gemini-2.0-flash-001` models.
-
-## 📃 License
-
-This project is for educational and demonstration purposes.
